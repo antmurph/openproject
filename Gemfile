@@ -167,6 +167,10 @@ gem 'i18n-js', '~> 3.2.0'
 gem 'sassc-rails', '~> 2.1.0'
 gem 'sprockets', '~> 3.7.0'
 
+#required for heroku
+gem 'rails_12factor', group: :production    # Add
+
+
 # required by Procfile, for deployment on heroku or packaging with packager.io.
 # also, better than thin since we can control worker concurrency.
 gem 'unicorn'
@@ -257,8 +261,10 @@ group :development do
   gem 'rubocop'
 end
 
+gem 'thin', '~> 1.7.2'
+
 group :development, :test do
-  gem 'thin', '~> 1.7.2'
+  
 
   # Tracing and profiling gems
   gem 'flamegraph', require: false
@@ -282,10 +288,6 @@ gem 'reform-rails', '~> 0.1.7'
 gem 'roar', '~> 1.1.0'
 
 platforms :mri, :mingw, :x64_mingw do
-  group :mysql2 do
-    gem 'mysql2', '~> 0.5.0'
-  end
-
   group :postgres do
     gem 'pg', '~> 1.1.0'
   end
