@@ -1,0 +1,39 @@
+/* line 20, modules/my_project_page/app/assets/stylesheets/my_project_page/my_projects_overview.sass */
+div.overview {
+  padding: 6px;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+
+/* line 25, modules/my_project_page/app/assets/stylesheets/my_project_page/my_projects_overview.sass */
+#visible-grid .block-receiver {
+  min-height: 50px;
+}
+
+/* line 29, modules/my_project_page/app/assets/stylesheets/my_project_page/my_projects_overview.sass */
+#content .block-teaser {
+  position: relative;
+}
+
+/* line 32, modules/my_project_page/app/assets/stylesheets/my_project_page/my_projects_overview.sass */
+#content .block-teaser .widget-box--header {
+  margin-right: 80px;
+}
+
+/* line 35, modules/my_project_page/app/assets/stylesheets/my_project_page/my_projects_overview.sass */
+#content .block-teaser .box-actions {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+/* line 42, modules/my_project_page/app/assets/stylesheets/my_project_page/my_projects_overview.sass */
+.textile-form-wrapper {
+  padding-top: 50px;
+}
+
+/* line 45, modules/my_project_page/app/assets/stylesheets/my_project_page/my_projects_overview.sass */
+.textile-form {
+  cursor: initial;
+}
