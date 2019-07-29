@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: openprojecttmb_development
+  pool: 5
+  username: openprojecttmb
+  password: supersecret2019
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: openprojecttmb_test
+  pool: 5
+  username: openprojecttmb
+  password: supersecret2019
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: openprojecttmb_production
+  pool: 5
+  username: openprojecttmb
+  password: supersecret2019
