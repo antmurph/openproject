@@ -294,12 +294,13 @@ group :opf_plugins do
   gem 'openproject-translations', git: 'https://github.com/opf/openproject-translations.git', branch: 'dev'
 end
 
+gem 'rails_12factor', group: :production    # Add
+
 group :docker, optional: true do
   gem 'passenger', '~> 6.0.1'
 
   # Used to easily precompile assets
   gem 'newrelic_rpm', require: !!ENV['HEROKU']
-  gem 'rails_12factor', require: !!ENV['HEROKU']
 end
 
 # Load Gemfile.local, Gemfile.plugins, plugins', and custom Gemfiles
