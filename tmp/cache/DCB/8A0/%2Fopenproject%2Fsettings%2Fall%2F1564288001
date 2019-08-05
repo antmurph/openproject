@@ -1,0 +1,12 @@
+o: ActiveSupport::Cache::Entry	:@value{I"available_languages:ETI"A---
+- en
+- de
+- fr
+- es
+- pt
+- pt-BR
+- it
+- zh-CN
+- ko
+- ru
+;T:@version0:@created_atf1565030343.0995686:@expires_in0
