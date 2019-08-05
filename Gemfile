@@ -294,6 +294,8 @@ group :opf_plugins do
   gem 'openproject-translations', git: 'https://github.com/opf/openproject-translations.git', branch: 'dev'
 end
 
+gem 'rails_12factor', group: :production
+
 group :docker, optional: true do
   gem 'passenger', '~> 6.0.1'
 
